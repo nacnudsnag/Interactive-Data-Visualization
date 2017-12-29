@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Duncan Gans & Andrew Phillips
+     This file includes the links to the javascript files, d3.js as well as
+     hexbin.js. It also includes the header, the table with the slider, date
+     and play button, and the script that creates and visualizes the 
+     hexbin map. 
+     -->
+<head>
+  <meta charset="utf-8">
+  <title>Project 2</title>
+  
+  <!-- D3 from Murray == 4.5...  check the path for your setup!! -->
+  
+  <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+  <script type="text/javascript" src="hexbin.js"></script>
+  
+  <!-- the css is in an external file -->
+  <link rel="stylesheet" type="text/css" href="p2v2.css">
+
+</head>
+
+<body>
+  <h3> Hexbin Visualization of Forest Fires </h3>
+  <div class="wrapper">
+    <img class="left" id="animate" src="Play-Button-PNG-HD.png" 
+	width="30" height="30" >
+    <div id="slidecontainer" class="left">
+      <input type="range" min="15" max="22" value="15" 
+	class="slider" id="myRange">
+    </div>
+    <p id="date" class="left">October </p>
+  </div>
+  <!--Javascript for Map-->
+
+  <script type="text/javascript" src="p2p2.js" style="z-index:-10;"></script>
+</body>
+</html>
+
+

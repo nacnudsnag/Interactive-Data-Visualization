@@ -1,0 +1,36 @@
+/* CSV file for iris visualization
+   Author: Clare Bates Congdon
+   */
+
+.axis line {  /* for the axes lines */
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis text {  /* for the tick marks */
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.heading {    /* for the SVG */
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.label {      /* for X and Y axis */
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.legend {      /* legend text*/
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+/* location of the menu items */
+#controls{
+    float:left;
+    width:150px;
+}

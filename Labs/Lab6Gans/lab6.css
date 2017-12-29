@@ -1,0 +1,16 @@
+/* Lab 6 CSS file, 
+   Duncan Gans
+   */
+
+body{
+  background:white; 
+  color:#006
+}
+
+circle:hover {
+  fill: orange;
+}
+
+#circle1:hover {
+  fill: red;
+}

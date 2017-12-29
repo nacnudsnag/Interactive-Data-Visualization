@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Lab 3 HTML file
+     Duncan Gans
+     September 20, 2017
+     -->
+<head>
+  <meta charset="utf-8">
+  <title>Lab 3</title>
+
+  <!-- D3 from Murray == 4.5...  check the path for your setup!! -->
+  <!-- I loaded in all of the javascript files so I could toggle them with buttons-->
+  <script type="text/javascript" src="d3.js"></script>
+  <script type="text/javascript" src="lab3.part1.js"></script>
+  <script type="text/javascript" src="lab3.part2.js"></script>
+  <script type="text/javascript" src="lab3.part3.js"></script>
+  <script type="text/javascript" src="lab3.part4.js"></script>
+
+  <!-- the css is in an external file -->
+  <link rel="stylesheet" type="text/css" href="lab3.css">
+</head>
+
+<body>
+<!--I use buttons so that you can easily see each individual part of the project without
+having to change the code. Simply click on the various buttons to see the parts of the 
+lab-->
+<form>
+  <button type="button" onclick="census()"> Census </button>
+  <button type="button" onclick="endPart1()"> Remove Census </button>
+</form>
+<p></p>
+<h3> Part 2 </h3>
+<form>
+  <button type="button" onclick="barGraph()"> Bar Graph </button>
+  <button type="button" onclick="scatterPlot()"> Scatter Plot </button>
+</form>
+<h3> Part 3 </h3>
+<form>
+  <button type="button" onclick="scatterPlot2()"> Scatter Plot w/ scale </button>
+</form>
+<h3> Part 4 </h3>
+<form>
+  <button type="button" onclick="scatterPlot3()"> Scatter Plot w/ Axis </button>
+</form>
+<div></div>
+
+</body>
+</html>

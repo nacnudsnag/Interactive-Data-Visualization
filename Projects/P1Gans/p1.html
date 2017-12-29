@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Project 1 HTML file
+     Duncan Gans
+     -->
+<head>
+  <meta charset="utf-8">
+  <title>Project 1</title>
+
+  <!-- D3 from Murray == 4.5...  check the path for your setup!! -->
+
+  <script type="text/javascript" src="d3.js"></script>
+
+  <!-- the css is in an external file -->
+  <link rel="stylesheet" type="text/css" href="p1.css">
+</head>
+
+<body>
+  <!--Div created for first chart-->
+  <div id="first"></div>
+  <button id="sortWhole"> Sort by Whole weight </button>
+  <button id="sortShucked"> Sort by Shucked Weight </button>
+  <br><br>
+  <div id="label">
+  <!--Used my own element "element" to make the buttons formatted how I want-->
+  <element>X Axis: </element>
+  </div>
+  <div id="label">
+  <!--Div for option form. Uses id for formatting-->
+  <!--Option form for selecting axi-->
+  <form id="xForm">
+    <select name="xAxis">
+      <option id="xDi"> Diameter </option>
+      <option id="xWh"> Whole Weight </option>
+      <option id="xLe"> Length </option>
+      <option id="xSe"> Shelled Weight </option>
+      <option id="xSu"> Shucked Weight </option>
+      <option id="xHe"> Height </option>
+      <option id="xVi"> Visceral Weight </option>
+    </select>
+  </form>
+  </div>
+
+  <br><br>
+  <div id="label">
+  <element>Y Axis: </element>
+  </div>
+  <!--Div for option form. Uses id for formatting-->
+  <!--Option form for selecting axi-->
+  <div id="label">
+  <form id="yForm">
+    <select name="yAxis">
+      <option id="yDi"> Diameter </option>
+      <option id="yWh"> Whole Weight </option>
+      <option id="yLe"> Length </option>
+      <option id="ySe"> Shelled Weight </option>
+      <option id="ySu"> Shucked Weight </option>
+      <option id="yHe"> Height </option>
+      <option id="yVi"> Visceral Weight </option>
+    </select>
+  </form>
+  </div>
+  <br><br>
+  <div id="second"></div>
+
+  <!--Javascript for graphs-->
+  <script type="text/javascript" src="p1.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+Iris data is from:
+  https://archive.ics.uci.edu/ml/datasets/iris
+
+The data has been renamed to a .csv file
+and column headings were added:
+sepal_length,sepal_width,petal_length,petal_width,classname
+
+The smaller file, iris.csv.small, is just the first few lines of data.

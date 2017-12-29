@@ -1,0 +1,56 @@
+/*
+Duncan Gans & Andrew Phillips
+October 25
+Interactive Data Visualization
+
+This CSS file includes the necessary CSS for the webpage. The main part of
+this includes the information for the slider. This slider I took from a 
+w3schools site at www.w3schools.com/howto/howto_js_rangeslider.asp. I then
+used a table to put all the elements on the same horizontal line.
+*/
+
+
+
+slidecontainer {
+    width: 90%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 90%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+
+.slider::-moz-range-thumb {
+    width: 10px; /* Set a specific slider handle width */
+    height: 10px; /* Slider handle height */
+    background: red; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.wrapper
+{
+  display: table;
+  width: 50%;
+}
+
+.left {
+  display: table-cell;
+}
+
+#date {
+  position:absolute
+  right:50em
+}

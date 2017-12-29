@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- iris.html
+       Author: Clare Bates Conggdon
+       -->
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Demo: Iris Data</title>
+    <link rel="stylesheet" type="text/css" href="iris.css">
+  </head>
+  <body>
+
+    <!-- set up menu items; id for controls is used in CSS -->
+    <div id="controls">
+      <br>
+      <small>Pick attributes to display on the X and Y axis:</small>
+      <p>X Axis:<br>
+	<select id="xSelect">
+	  <optgroup label="Attributes" id="xmetrics"></optgroup></select></p>
+      <p>Y Axis:<br>
+	<select id="ySelect">
+	  <optgroup label="Attributes" id="ymetrics"></optgroup></select></p>
+    </div>
+
+    <!-- D3 library from server, so we don't have to look for it -->
+    <!-- this is version 4.10.2 of D3, as of October 1, 2017 -->
+    <script type="text/javascript" src="http://d3js.org/d3.v4.js"></script>
+
+    <!-- js for this visualization -->
+    <script type="text/javascript" src="iris.js"></script>
+
+  </body>
+</html>

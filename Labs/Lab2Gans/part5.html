@@ -1,0 +1,37 @@
+<!--Duncan Gans-->
+<!--Lab 2: Wednesdasy Sep. 12-->
+<!--This code includes the html necessary to create the svg and the circle
+within it to show off the animation necessary for part 5-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <!--Citing the Javascript--!>
+  <script type="text/javascript" src="part5.js"></script>
+
+</head>
+
+<body>
+
+<form>
+  <!--Buttons attributed to various functions -->
+  <button type="button" onclick="changeColor()"> Change Color </button>
+  <button type="button" onclick="changeSize()"> Change Size </button>
+  <button type="button" onclick="changeTransparency()"> Transparency </button>
+  <button type="button" onclick="changeLoc()"> Teleport </button>
+  <button type="button" onclick="moveRight()"> To the Right! </button>
+  <button type="button" onclick="bounce()"> Bounce! </button>
+</form>
+<!--Creating the SVG and adding the circle with the id-->
+<svg width="500" height="500">
+
+  <circle id="c" cx="250" cy="250" r="60"/>
+
+</svg>  
+<body>
+
+</html>

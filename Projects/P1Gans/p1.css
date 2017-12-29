@@ -1,0 +1,13 @@
+/* Project 1 CSS file, 
+   Duncan Gans
+*/
+
+body{
+  background:white; 
+  color:#006
+}
+
+//Allows two of these elements to be next to eachother
+#label {width: 100px; float: left}
+
+

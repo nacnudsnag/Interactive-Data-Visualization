@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- example HTML file, from Clare -->
+<head>
+  <meta charset="utf-8">
+  <title>Example Javascript</title>
+
+  <!-- the css is in an external file -->
+  <link rel="stylesheet" type="text/css" href="example.css">
+
+  <!-- the js is in an external file -->
+  <script type="text/javascript" src="example.js"></script>
+
+</head>
+
+<!-- notice the onload attribute here, which is calling a js function -->
+<body onload=init()>
+
+<b onmouseover="changeSize()" id='boldstuff'>
+This is just an example html page, w/o much in it</b>
+<br><br>
+
+Note: I have read/heard that for efficiency concerns, it's best to put the
+Javascript at the end of the body, so that it if takes a long time to load,
+it won't hold other things up. (The page will start displaying sooner.) I
+have also heard that putting it there can lead to other issues that you have
+to finagle in your code. 
+<br><br>
+
+Efficiency is not the point of this class, so we will generally avoid the
+headaches, put the JavaScript in the head and move on.
+
+<form>
+  <button type="button" onclick="changeSize()">DOUBLE FONT SIZE!</button>
+  <button type="button" onclick="moveLeft()"> Move Left</button>
+  <button type="button" onclick="moveRight()"> Move Right</button>
+  <button type="button" onclick="myMove()"> Slide Right</button>
+</form>
+<!-- Adding in the SVG stuff --!>
+<svg width="500" height="300">
+  <circle id="circ" cx="250" cy="150" r="40" fill="green" stroke="gray"/>
+  <rect x="270" y="150" width="200" height="50" fill="blue"/>
+  <line x1="250" y1="150" x2="100" y2="150" stroke="green" stroke-width="5"/>
+</svg>
+
+
+
+
+
+
+</body>
+</html>
